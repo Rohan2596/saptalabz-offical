@@ -12,9 +12,35 @@
     font-size: x-large;
     color: #0d3253;
     font-family: Poppins;
-    width: 90%;
+    width: 92%;
 }
 .menuIcon{
     align-self: flex-end;
-    width: 10%;
+    width: 8%;
+}
+.menulist{
+    display: none;
+}
+@media screen and (min-width:786px){
+    .menuIcon{
+        display: none;
+    }
+    .menulist{
+        width: 50%;
+        display: inline;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+    
+
+    }
+    .menuItem:hover{
+       color: #5cc5d5;
+       border-bottom: 2px solid #5cc5d5;
+    }
+    .title{
+        width: 50%;
+    }
+
 }
