@@ -1,0 +1,20 @@
+.navbar{
+ height: 3rem;
+ background-color: white;
+ display: flex;
+ justify-content: start;
+ padding: 10px;
+ border-bottom: 2px solid #ebebec;
+ width: 100%;
+}
+.title{
+    font-weight: bold;
+    font-size: x-large;
+    color: #0d3253;
+    font-family: Poppins;
+    width: 90%;
+}
+.menuIcon{
+    align-self: flex-end;
+    width: 10%;
+}
