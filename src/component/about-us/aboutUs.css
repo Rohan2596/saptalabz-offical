@@ -24,7 +24,7 @@
     font-size: xx-large;
 }
 .aboutUs-description{
-    font-size: medium;
+    font-size: large;
 }
 .aboutUs-right{
     width: 50%;
@@ -41,6 +41,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center space-around;
+    padding: 2%;
     
 }
 .our_team{
@@ -87,10 +88,10 @@
     }
     .aboutUs_title{
        
-        font-size: large;
+        font-size: x-large;
     }
     .aboutUs-description{
-        font-size: smaller;
+        font-size: large;
     }
     .aboutUs-right{
         width: 100%;

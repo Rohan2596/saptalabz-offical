@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './aboutUs.css';
-import { requirePropFactory } from "@material-ui/core";
 class AboutUs extends Component {
     render() {
         return (
