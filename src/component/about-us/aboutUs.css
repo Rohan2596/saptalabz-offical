@@ -37,6 +37,42 @@
 .aboutus-image{
     width: 100%;
 }
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-around;
+    
+}
+.our_team{
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.team_members{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    align-self: center;
+    text-align: center;
+    background-image: url(../../assets/gif/background.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.team_avatar{
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-self: center;   
+}
+.team_info{
+    font-size: larger;
+}
 @media screen and (max-width:786px){
     .aboutUs{
        
@@ -65,4 +101,8 @@
     .aboutus-image{
         width: 100%;
     } 
+    .our_team{
+        font-size: x-large;
+   
+    }
 }
