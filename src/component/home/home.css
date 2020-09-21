@@ -37,7 +37,7 @@ padding-bottom: 1%;
 border-radius: 1%;
 font-size:medium;
 color: white;
-}
+animation-duration: 1.5s; }
 .tagline{
     font-weight: bolder;
     width: fit-content;
@@ -86,4 +86,12 @@ color: white;
     .description{
         font-size: smaller;
     }
+}
+@keyframes tag{
+    0% {
+        background-color: white;
+      }
+      100% {
+        background-color: #5cc5d5;
+      }
 }
