@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Rohan2596.github.io/saptalabz-offical/static/css/main.aae9154a.chunk.css",
+    "main.js": "/Rohan2596.github.io/saptalabz-offical/static/js/main.550d6ca3.chunk.js",
+    "main.js.map": "/Rohan2596.github.io/saptalabz-offical/static/js/main.550d6ca3.chunk.js.map",
+    "runtime-main.js": "/Rohan2596.github.io/saptalabz-offical/static/js/runtime-main.506d5147.js",
+    "runtime-main.js.map": "/Rohan2596.github.io/saptalabz-offical/static/js/runtime-main.506d5147.js.map",
+    "static/js/2.92c4c0e6.chunk.js": "/Rohan2596.github.io/saptalabz-offical/static/js/2.92c4c0e6.chunk.js",
+    "static/js/2.92c4c0e6.chunk.js.map": "/Rohan2596.github.io/saptalabz-offical/static/js/2.92c4c0e6.chunk.js.map",
+    "index.html": "/Rohan2596.github.io/saptalabz-offical/index.html",
+    "precache-manifest.880a74cb5f619daa6b6be690b2e92231.js": "/Rohan2596.github.io/saptalabz-offical/precache-manifest.880a74cb5f619daa6b6be690b2e92231.js",
+    "service-worker.js": "/Rohan2596.github.io/saptalabz-offical/service-worker.js",
+    "static/css/main.aae9154a.chunk.css.map": "/Rohan2596.github.io/saptalabz-offical/static/css/main.aae9154a.chunk.css.map",
+    "static/js/2.92c4c0e6.chunk.js.LICENSE.txt": "/Rohan2596.github.io/saptalabz-offical/static/js/2.92c4c0e6.chunk.js.LICENSE.txt",
+    "static/media/aboutUs.css": "/Rohan2596.github.io/saptalabz-offical/static/media/background.27fe5be6.png",
+    "static/media/marlon.png": "/Rohan2596.github.io/saptalabz-offical/static/media/marlon.f4638af9.png",
+    "static/media/team.png": "/Rohan2596.github.io/saptalabz-offical/static/media/team.401b8b0a.png",
+    "static/media/user_flow.gif": "/Rohan2596.github.io/saptalabz-offical/static/media/user_flow.9b4319c1.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.506d5147.js",
+    "static/js/2.92c4c0e6.chunk.js",
+    "static/css/main.aae9154a.chunk.css",
+    "static/js/main.550d6ca3.chunk.js"
+  ]
+}
