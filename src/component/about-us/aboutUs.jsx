@@ -4,7 +4,7 @@ class AboutUs extends Component {
     render() {
         return (
             <>
-                <div className="aboutUs">
+                <div id="about" className="aboutUs">
                     <div className="aboutUs-left">
                         <span className="aboutUs_title">We are Saptalabzianz</span>
                         <span className="aboutUs-description">

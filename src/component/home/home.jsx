@@ -11,7 +11,7 @@ class Home extends Component {
     render() {
         return (
             <>
-                <div className="home">
+                <div  id="home" className="home">
                     <div className="home_left">
                    <img src={require('../../assets/gif/user_flow.gif')}  alt="home_image" className="home_image" />
                     </div>

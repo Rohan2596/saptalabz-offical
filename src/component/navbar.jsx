@@ -34,13 +34,13 @@ class Navbar extends Component{
                 }}/></div>
 
                 <div className="menulist">
-                    <span className="menuItem">
+                    <span  href="home"  className="menuItem">
                         Home
                     </span>
-                    <span className="menuItem">
+                    <span href="about" className="menuItem">
                         About Us
                     </span>
-                    <span className="menuItem">
+                    <span href="" className="menuItem">
                         Portfolio
                     </span>
                     <span className="menuItem">
@@ -48,7 +48,7 @@ class Navbar extends Component{
                     </span>
                 </div>
             </div>
-
+          
             </>
         )
     }
