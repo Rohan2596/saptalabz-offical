@@ -10,7 +10,7 @@ render(){
         
 
             <div className="contact-left">
-            <img src={require('../../assets/gif/Mention.gif')} alt="" className="contactUs-image" />
+            <img src={require('../../assets/gif/contact.gif')} alt="" className="contactUs-image" />
 
             </div>
             <div className="contact-right">
