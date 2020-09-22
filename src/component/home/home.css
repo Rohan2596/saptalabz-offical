@@ -59,12 +59,12 @@ animation-duration: 1.5s; }
     .home_left{
         width: 100%;
         
-        height: 50vh;
+        height: 60vh;
     }
     .home_image{
-        width:100%;
-        height: 50vh;
-        padding: 4%;
+        width:90%;
+        height: 60vh;
+        padding: 0%;
     }
     .home_right{
         width: 100%;
