@@ -6,6 +6,7 @@
  padding: 10px;
  border-bottom: 2px solid #ebebec;
  width: 100%;
+ 
 }
 .title{
     font-weight: bold;
@@ -34,6 +35,11 @@
 
     
 
+    }
+    .menuItem{
+        color: #0d3253;
+        text-decoration: none;
+        cursor: pointer; 
     }
     .menuItem:hover{
        color: #5cc5d5;
