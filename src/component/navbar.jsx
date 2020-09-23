@@ -41,7 +41,7 @@ class Navbar extends Component{
                         About Us
                     </span>
                     <span href="" className="menuItem">
-                        Portfolio
+                        Our Services
                     </span>
                     <span className="menuItem">
                         Contact Us
