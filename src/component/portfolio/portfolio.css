@@ -1,0 +1,27 @@
+.portfolio_section{
+    width: 100%;
+    height: 60vh;
+}
+.portfolio_section_title{
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+
+}
+.work_samples{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow-x: scroll;
+    white-space: nowrap;
+    
+}
+.work_card{
+    min-width: 25%; 
+    max-width: 25%;
+    margin: 2%;
+    height: 30vh;
+    background-color: teal;
+}

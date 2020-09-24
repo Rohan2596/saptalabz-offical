@@ -5,6 +5,7 @@ import Home from '../component/home/home';
 import AboutUs from '../component/about-us/aboutUs';
 import Service from '../component/service/service';
 import ContactUs from '../component/contactUs/contactUs';
+import Portfolio from "./portfolio/portfolio";
 class Navbar extends Component {
     constructor(props) {
         super(props)
@@ -63,11 +64,14 @@ class Navbar extends Component {
                     <Service />
 
                 </section>
+                <section>
+                    <Portfolio/>
+                </section>
                 <section id="contact">
                     <ContactUs />
 
                 </section>
-
+                
             </>
         )
     }
