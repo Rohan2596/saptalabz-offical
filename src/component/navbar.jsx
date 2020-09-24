@@ -64,9 +64,9 @@ class Navbar extends Component {
                     <Service />
 
                 </section>
-                <section>
+                {/* <section>
                     <Portfolio/>
-                </section>
+                </section> */}
                 <section id="contact">
                     <ContactUs />
 
