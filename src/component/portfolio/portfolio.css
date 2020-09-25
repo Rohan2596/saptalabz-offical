@@ -1,6 +1,6 @@
 .portfolio_section{
     width: 100%;
-    height: 60vh;
+    height: 40vh;
 }
 .portfolio_section_title{
     font-size: xx-large;
@@ -12,10 +12,9 @@
 .work_samples{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     flex-direction: row;
-    overflow-x: scroll;
-    white-space: nowrap;
+    
     
 }
 .work_card{
@@ -23,5 +22,73 @@
     max-width: 25%;
     margin: 2%;
     height: 30vh;
-    background-color: teal;
+    border: 2px solid #5cc5d5;
+    border-radius: 10px;
+    
+}
+.work_card_image{
+  height: 20vh;
+  background-color: #5cc5d5;  
+}
+.work_card_title{
+    width: fit-content;
+    font-weight:bold;
+    color: black;
+    padding: 0.5%;
+
+}
+.work_card_description{
+    width: fit-content;
+    font-weight:100;
+    color: black;
+    font-size: medium;
+    padding: 0.5%;
+}
+@media screen and (max-width:786px){
+    .portfolio_section{
+        width: 100%;
+        height: fit-content;
+    }
+    .portfolio_section_title{
+        font-size: x-large;
+        
+    
+    }
+    .work_samples{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10%;
+        
+        
+    }
+    .work_card{
+        min-width: 100%; 
+        max-width: 100%;
+        margin: 0%;
+        height: 20vh;
+        border: 2px solid #5cc5d5;
+        border-radius: 10px;
+        margin-top: 2%;
+        
+    }
+    .work_card_image{
+      height: 10vh;
+      background-color: #5cc5d5;  
+    }
+    .work_card_title{
+        width: fit-content;
+        font-weight:bold;
+        color: black;
+        padding: 0.5%;
+    
+    }
+    .work_card_description{
+        width: fit-content;
+        font-weight:100;
+        color: black;
+        font-size: medium;
+        padding: 0.5%;
+    }
 }

@@ -25,6 +25,7 @@
     flex-direction: column;
     border: 2px solid #5cc5d5;
     padding: 1%;
+    border-radius:10px;
     
 }
 .service_info_title{
