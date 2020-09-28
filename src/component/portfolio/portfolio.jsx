@@ -8,15 +8,15 @@ class Portfolio extends Component {
         super(props);
         this.state = {
             numbers: [{
-                "image": "image",
+                "image": "news",
                 "title": "7 news",
                 "description": "Android News Applications."
             }, {
-                "image": "image",
+                "image": "waller",
                 "title": "Waller",
                 "description": "Waller News Application"
             }, {
-                "image": "image",
+                "image": "angular",
                 "title": "Portfolio",
                 "description": "BootStrap website Application"
             }]
@@ -33,9 +33,11 @@ class Portfolio extends Component {
                         {
                             this.state.numbers.map((item, index) => (
                                 <div className="work_card" key={index}>
-                                    <div className="work_card_image">{item.image}</div>
-                            <div className="work_card_title">{item.title}</div>
-                            <div className="work_card_description">{item.description}</div>
+
+                                    <img key={item.image} src={require(`../../assets/gif/${item.image}.jpg`)} alt="" className="work_card_image" />
+
+                                    <div className="work_card_title">{item.title}</div>
+                                    <div className="work_card_description">{item.description}</div>
                                 </div>
                             ))
                         }
