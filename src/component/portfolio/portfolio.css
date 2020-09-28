@@ -27,7 +27,7 @@
     
 }
 .work_card_image{
-  height: 22vh;
+  height: 20vh;
       display: flex;
       justify-content: center;
       width: 100%;
@@ -46,7 +46,7 @@
     width: fit-content;
     font-weight:100;
     color: black;
-    font-size: medium;
+    font-size: smaller;
     padding: 0.5%;
 }
 @media screen and (max-width:786px){
@@ -79,7 +79,7 @@
         
     }
     .work_card_image{
-      height: 15vh;
+      height: 13vh;
       display: flex;
       justify-content: center;
       width: 100%;
@@ -99,7 +99,7 @@
         width: fit-content;
         font-weight:100;
         color: black;
-        font-size: medium;
+        font-size: smaller;
         padding: 0.5%;
     }
 }

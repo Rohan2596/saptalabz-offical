@@ -10,15 +10,15 @@ class Portfolio extends Component {
             numbers: [{
                 "image": "news",
                 "title": "7 news",
-                "description": "Android News Applications."
+                "description": "Android News Applications featuring lastest news from India."
             }, {
                 "image": "waller",
                 "title": "Waller",
-                "description": "Waller News Application"
+                "description": "Wallpapper Application featuring images form Pexels.com"
             }, {
                 "image": "angular",
                 "title": "Portfolio",
-                "description": "BootStrap website Application"
+                "description": "Angular Web Application for saptalabz solutions."
             }]
         }
     }
