@@ -21,7 +21,7 @@ class AboutUs extends Component {
                 <div className="team">
                     <span className="our_team">Our Team</span>
                     <div className="team_members">
-                        <img src={require('../../assets/gif/marlon.png')} alt="" className="team_avatar" />
+                        <img src={require('../../assets/gif/rohan.png')} alt="" className="team_avatar" />
                         <span className="team_info" style={{fontWeight:"bold"}}>@CEO & @Founder</span>
                         <span className="team_info">Rohan Ravindra Kadam</span>
                         <span className="team_info">Full Stack Developer</span>

@@ -66,9 +66,10 @@
 }
 .team_avatar{
     vertical-align: middle;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    padding: 10px;
     align-self: center;   
 }
 .team_info{
