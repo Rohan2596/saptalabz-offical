@@ -22,6 +22,10 @@ class Navbar extends Component {
 
 
     }
+    componentDidMount(){
+        document.title = "Saptalabz Solutions|Rohan Kadam"
+      }
+    
 
     render() {
         return (

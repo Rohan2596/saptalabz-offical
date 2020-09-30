@@ -10,6 +10,7 @@ function App() {
      <Navbar  />
      
      <Switch>
+
        <Route  path='/' />
      </Switch>
     </BrowserRouter>
