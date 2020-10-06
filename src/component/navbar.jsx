@@ -24,6 +24,8 @@ class Navbar extends Component {
     }
     componentDidMount(){
         document.title = "Saptalabz Solutions|Rohan Kadam"
+        var x = document.createElement("META");
+         x.innerText="We help businesses owner's to build App and website. Our team of unique specialist can help your business to achieve your goals.";
       
     }
     
